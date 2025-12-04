@@ -54,8 +54,6 @@ local function pad(p, px)
     })
 end
 
-local notifs = {}
-
 function lib:SetAccent(c)
     clr.accent = c
 end
@@ -1179,4 +1177,3 @@ function lib:Window(cfg)
 end
 
 return lib
-
